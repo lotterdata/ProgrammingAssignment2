@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve returns the inverse of x, calculating the inverse only if
-## necessary, otherwise returning a cahced value
+## necessary, otherwise returning a cached value
 
 cacheSolve <- function(x, ...) {
     minv <- x$get.inverse()
